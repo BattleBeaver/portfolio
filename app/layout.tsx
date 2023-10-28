@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={pixelify.className + " overflow-hidden"}>
+      <body className={pixelify.className}>
         <main className="grid grid-rows-[25px_50px_1fr] bg-slate-900 h-screen w-screen text-white">
           <Path />
           <NavBar />
